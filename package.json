@@ -1,0 +1,8 @@
+{
+  "name": "next-template-jd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jamiedavenport/next-template-jd.git",
+  "author": "Jamie Davenport <jamiedav97@gmail.com>",
+  "license": "MIT"
+}
