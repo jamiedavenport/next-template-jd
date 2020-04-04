@@ -4,4 +4,4 @@ export default {
   title: 'Test',
 };
 
-export const baseline = () => <h1>Hello, World</h1>;
+export const baseline = (): React.FC => <h1>Hello, World</h1>;
