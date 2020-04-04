@@ -10,8 +10,8 @@ yarn create next-app --example https://github.com/jamiedavenport/next-template-j
 
 ## Features
 
-* [Typescript](https://www.typescriptlang.org/)
+* [Typescript](https://www.typescriptlang.org/) because it's great
 * [ESLint](https://eslint.org/)
 * [Prettier](https://prettier.io/)
-* [Storybook](https://storybook.js.org/)
-* [Husky](https://github.com/typicode/husky) & [Lint Staged](https://github.com/okonet/lint-staged)
+* [Storybook](https://storybook.js.org/) for developing components in isolation
+* [Husky](https://github.com/typicode/husky) & [Lint Staged](https://github.com/okonet/lint-staged) for automatic formatting
