@@ -1,8 +1,5 @@
 name: Website CI
-on:
-  push:
-    paths:
-      - "website/**"
+on: [push]
 
 jobs:
   ci:
