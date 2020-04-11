@@ -26,6 +26,12 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
     'prettier/prettier': 'error',
+    'react/prop-types': [
+      2,
+      {
+        skipUndeclared: true,
+      },
+    ],
   },
   settings: {
     react: {

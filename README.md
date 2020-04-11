@@ -10,6 +10,7 @@ yarn create next-app --example https://github.com/jamiedavenport/next-template-j
 
 ## Features
 
+* [Tailwind](https://tailwindcss.com/) for styling
 * [Typescript](https://www.typescriptlang.org/) because it's great
 * [ESLint](https://eslint.org/)
 * [Prettier](https://prettier.io/)
