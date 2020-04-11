@@ -1,0 +1,16 @@
+name: Website CI
+on:
+  push:
+    paths:
+      - "website/**"
+
+jobs:
+  ci:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: yarn install
+        working-directory: website
+      - run: yarn lint
+        working-directory: website
