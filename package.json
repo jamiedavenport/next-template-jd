@@ -16,7 +16,7 @@
     "postcss-import": "^12.0.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "tailwindcss": "^1.2.0"
+    "tailwindcss": "^1.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
