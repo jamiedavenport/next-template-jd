@@ -17,3 +17,4 @@ yarn create next-app --example https://github.com/jamiedavenport/next-template-j
 * [Storybook](https://storybook.js.org/) for developing components in isolation
 * [Husky](https://github.com/typicode/husky) & [Lint Staged](https://github.com/okonet/lint-staged) for automatic formatting
 * CI via [Github Actions](https://github.com/features/actions)
+* [Jest](https://jestjs.io/) for testing
