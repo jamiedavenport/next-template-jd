@@ -8,7 +8,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "test": "jest"
   },
   "dependencies": {
     "autoprefixer": "^9.7.6",
@@ -23,6 +24,7 @@
     "@storybook/addon-viewport": "^5.3.18",
     "@storybook/addons": "^5.3.18",
     "@storybook/react": "^5.3.18",
+    "@types/jest": "^25.2.1",
     "@types/node": "^13.11.0",
     "@types/react": "^16.9.32",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
@@ -34,8 +36,10 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.19.0",
     "husky": ">=4",
+    "jest": "^25.5.4",
     "lint-staged": ">=10",
     "prettier": "^2.0.2",
+    "ts-jest": "^25.4.0",
     "typescript": "^3.8.3"
   },
   "husky": {
